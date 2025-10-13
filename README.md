@@ -5,7 +5,8 @@
 - 프로젝트 명 : 인공지능 기반 딸기꽃 수분 로봇
 - 프로젝트 정의 : 인간을 대신하여 딸기꽃 인공 수분 로봇 개발
   
-  <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/b25d0039-dfc8-4a6f-85c0-567a92e4039f" /></br>
+  <img width="400" height="400" alt="image" src="https://github.com/yks0901/25_/asset/20250511_182501.jpg/" /></br> 
+/20250511_182501.jpg
 
 **1-2. 개발 배경 및 필요성**
 - 꿀벌 개체 수가 급격히 감소하고 있음(제주도 기준 2021년 2.5% → 2024년 29.9%). 농촌 고령화로 인한 노동력 부족이 심화되고 있으며, 딸기 시설재배에서 인공 수분의 필요성이 증가하나 기존 수작업 방식은 고령화된 농업 인구에게 큰 부담으로 작용하고 있음
@@ -38,7 +39,7 @@
 ---
 
 ## **💡2. 팀원 소개**
-| <img width="80" height="100" src="" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/c7f66b7c-ab84-41fa-8fba-b49dba28b677" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/c33252c7-3bf6-43cf-beaa-a9e2d9bd090b" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/0d5909f0-fc73-4ab9-be09-4d48e3e71083" > | 
+| <img width="80" height="100" src="https://github.com/yks0901/asset/" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/c7f66b7c-ab84-41fa-8fba-b49dba28b677" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/c33252c7-3bf6-43cf-beaa-a9e2d9bd090b" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/0d5909f0-fc73-4ab9-be09-4d48e3e71083" > | 
 |:---:|:---:|:---:|:---:|
 | **윤건수** | **박지훈** | **김소정** | **조원우** |
 | • 개발총괄 <br> • UI/UX 기획 | • 백엔드 <br> • 프론트엔드 | • API 개발 <br> • DB 서버 구축 |• 데이터 분석 <br> • 전처리 |

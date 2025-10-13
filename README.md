@@ -31,15 +31,15 @@
 **1-6. 기술 스택**
 - 프론트엔드 : React, Next.js, Tailwind CSS
 - 백엔드 : Python(FastAPI), Node.js, Django
-- AI/ML : PyTorch, TensorFlow, Hugging Face, OpenAI API
+- AI/ML : PyTorch, TensorFlow
 - 데이터베이스 : PostgreSQL, MongoDB, Elasticsearch
 - 클라우드 : AWS
-- 배포 및 관리 : Docker, Kubernetes, GitHub Actions
+- 배포 및 관리 : GitHub Actions
 
 ---
 
 ## **💡2. 팀원 소개**
-| <img width="80" height="100" src="https://github.com/yks0901/2025_/blob/main/asset/%ED%86%A0%EC%9D%B5%20%EA%B1%B4%EC%88%98%20%EC%82%AC%EC%A7%84.jpg" > | <img width="80" height="100" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/1759487705047.jpg" > | <img width="80" height="100" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/KakaoTalk_20251013_232203558.jpg" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/0d5909f0-fc73-4ab9-be09-4d48e3e71083" > | 
+| <img width="80" height="100" src="https://github.com/yks0901/2025_/blob/main/asset/%ED%86%A0%EC%9D%B5%20%EA%B1%B4%EC%88%98%20%EC%82%AC%EC%A7%84.jpg" > | <img width="80" height="100" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/1759487705047.jpg" > | <img width="80" height="100" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/KakaoTalk_20251013_232203558.jpg" > | <img width="80" height="100" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/KakaoTalk_20251014_000518190.jpg" > | 
 |:---:|:---:|:---:|:---:|
 | **윤건수** | **박지훈** | **김소정** | **조원우** |
 | • 개발총괄 <br> • UI/UX 기획 | • 백엔드 <br> • 프론트엔드 | • API 개발 <br> • DB 서버 구축 |• 데이터 분석 <br> • 전처리 |

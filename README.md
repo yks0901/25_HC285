@@ -50,7 +50,7 @@
 ## **💡3. 시스템 구성도**
 
 - s/w 구성도(moveit 관련)
-<img width="500" height="500" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/moveit_flow" />
+<img width="500" height="600" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/moveit_flow" />
 
 - s/w 구성도(센서 흐름도)
 <img width="500" height="500" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/%EC%84%BC%EC%84%9C%20%ED%9D%90%EB%A6%84%EB%8F%84.png" />

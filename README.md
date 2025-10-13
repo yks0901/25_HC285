@@ -48,14 +48,21 @@
 
 ---
 ## **💡3. 시스템 구성도**
-> **(참고)** S/W구성도, H/W구성도, 서비스 흐름도 등을 작성합니다. 시스템의 동작 과정 등을 추가할 수도 있습니다.
-- 서비스 구성도
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/28fc8453-d1a0-4184-8fd0-130d93d18545" />
 
+- s/w 구성도(moveit 관련)
+<img width="500" height="500" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/moveit_flow" />
 
-- 엔티티 관계도
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/76e3347b-6d94-491e-8aeb-a7b4601c54d5" />
+- s/w 구성도(센서 흐름도)
+<img width="500" height="500" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/%EC%84%BC%EC%84%9C%20%ED%9D%90%EB%A6%84%EB%8F%84.png" />
 
+- h/w 구성도(상부)
+<img width="500" height="500" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/top2.png" />
+
+- h/w 구성도(하부)
+<img width="500" height="500" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/bottom2.png" />
+
+- 흐름도
+<img width="500" height="500" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/algorithm_flow" />
 
 ---
 ## **💡4. 작품 소개영상**

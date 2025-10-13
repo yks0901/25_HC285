@@ -5,7 +5,7 @@
 - 프로젝트 명 : 인공지능 기반 딸기꽃 수분 로봇
 - 프로젝트 정의 : 인간을 대신하여 딸기꽃 인공 수분 로봇 개발
   
-  <img width="400" height="400" alt="image" src="https://github.com/yks0901/25_/asset/20250511_182501.jpg/" /></br> 
+  <img width="400" height="400" alt="image" src="https://github.com/yks0901/2025_/asset/20250511_182501.jpg/" /></br> 
 /20250511_182501.jpg
 
 **1-2. 개발 배경 및 필요성**

@@ -29,12 +29,12 @@
 - 활용 분야 : 딸기 재배 농장, 스마트팜/농업 연구소, 노업 자동화 산업 등
 
 **1-6. 기술 스택**
-- 프론트엔드 : React, Next.js, Tailwind CSS
+- 로봇 운영체제(ROS2) : ROS2 Humble, Nav2, Moveit2, RTAB-Map, micro-ROS
 - 백엔드 : Python(FastAPI), Node.js, Django
-- AI/ML : PyTorch, TensorFlow
-- 데이터베이스 : PostgreSQL, MongoDB, Elasticsearch
-- 클라우드 : AWS
-- 배포 및 관리 : GitHub Actions
+- AI/Computer Vision : YOLOv8, PyTorch, OpenCV 
+- 제어 및 통신: Dynamixel SDK, OpenCR
+- 시뮬레이션/ 모델링 : Gazebo, RViz2, Autodesk Inventor 
+- 개발 및 관리 : Git, GitHub, VSCode
 
 ---
 
@@ -42,7 +42,7 @@
 | <img width="80" height="100" src="https://github.com/yks0901/2025_/blob/main/asset/%ED%86%A0%EC%9D%B5%20%EA%B1%B4%EC%88%98%20%EC%82%AC%EC%A7%84.jpg" > | <img width="80" height="100" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/1759487705047.jpg" > | <img width="80" height="100" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/KakaoTalk_20251013_232203558.jpg" > | <img width="80" height="100" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/KakaoTalk_20251014_000518190.jpg" > | 
 |:---:|:---:|:---:|:---:|
 | **윤건수** | **박지훈** | **김소정** | **조원우** |
-| • 개발총괄 <br> • UI/UX 기획 | • 백엔드 <br> • 프론트엔드 | • API 개발 <br> • DB 서버 구축 |• 데이터 분석 <br> • 전처리 |
+| • 전체 제어 로직 개발 <br> • 객체 인식 | • 하드웨어 설계 <br> • 역기구학 계산 | • RTAB-Map <br> • 서류 작성 |• 멘토링 <br> • 피드백 |
 
 
 

@@ -59,10 +59,10 @@
 <img width="500" height="500" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/top2.png" />
 
 - h/w 구성도(하부)
-<img width="500" height="500" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/bottom2.png" />
+<img width="600" height="500" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/bottom2.png" />
 
 - 흐름도
-<img width="500" height="500" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/algorithm_flow" />
+<img width="600" height="500" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/algorithm_flow" />
 
 ---
 ## **💡4. 작품 소개영상**

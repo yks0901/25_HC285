@@ -74,35 +74,102 @@
 작성 예시 : 저는 다음과 같이 작성하니, 아래와 같이 링크가 연결된 썸네일 이미지가 등록되었네요! 
 [![한이음 드림업 프로젝트 소개](https://github.com/user-attachments/assets/16435f88-e7d3-4e45-a128-3d32648d2d84)](https://youtu.be/YcD3Lbn2FRI?si=isERqIAT9Aqvdqwp)
 ```
-[![한이음 드림업 프로젝트 소개](https://github.com/user-attachments/assets/16435f88-e7d3-4e45-a128-3d32648d2d84)](https://youtu.be/YcD3Lbn2FRI?si=isERqIAT9Aqvdqwp)
+[![한이음 드림업 프로젝트 소개](https://github.com/yks0901/2025_/blob/main/asset/20250511_182501.jpg/)](https://youtu.be/DfwWIk6EnHk)
 
 
 ---
 ## **💡5. 핵심 소스코드**
-- 소스코드 설명 : API를 활용해서 자동 배포를 생성하는 메서드입니다.
+- 소스코드 설명 : 핀홀 카메라 모델을 구현한 코드이며, 인식된 객체의 3d 좌표를 추정합니다.
 
-```c++
-    private static void start_deployment(JsonObject jsonObject) {
-        String user = jsonObject.get("user").getAsJsonObject().get("login").getAsString();
-        Map<String, String> map = new HashMap<>();
-        map.put("environment", "QA");
-        map.put("deploy_user", user);
-        Gson gson = new Gson();
-        String payload = gson.toJson(map);
+```python
+    def get_3d_point(self, pixel_x: int, pixel_y: int, depth_image: np.ndarray):
+        """Get 3D point from pixel coordinates with lens distortion correction."""
+        
+        try:
+            if 0 <= pixel_x < self.WIDTH and 0 <= pixel_y < self.HEIGHT:
+                depth = depth_image[int(round(pixel_y)), int(round(pixel_x))]
 
-        try {
-            GitHub gitHub = GitHubBuilder.fromEnvironment().build();
-            GHRepository repository = gitHub.getRepository(
-                    jsonObject.get("head").getAsJsonObject()
-                            .get("repo").getAsJsonObject()
-                            .get("full_name").getAsString());
-            GHDeployment deployment =
-                    new GHDeploymentBuilder(
-                            repository,
-                            jsonObject.get("head").getAsJsonObject().get("sha").getAsString()
-                    ).description("Auto Deploy after merge").payload(payload).autoMerge(false).create();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+                if depth > 0:
+                    w, h = self.WIDTH, self.HEIGHT
+                    
+                    camera_matrix = np.array([[889.20439927, 0., 645.90808215],
+                                              [0.,  891.14540673, 363.20254286],
+                                              [0., 0., 1.]])
+                    
+                    dist_coeffs = np.array([[0.19324328, -0.6149969,   0.00296531, -0.00147052,  0.58687461]])
+                    
+                    # Optimal new camera matrix
+                    new_camera_matrix, _ = cv2.getOptimalNewCameraMatrix(camera_matrix, dist_coeffs, (w, h), 1, (w, h))
+
+                    # Undistort pixel coordinates
+                    undistorted_pixel = cv2.undistortPoints(
+                        np.array([[pixel_x, pixel_y]], dtype=np.float32),
+                        camera_matrix,
+                        dist_coeffs,
+                        None,
+                        new_camera_matrix
+                    ).reshape(-1)
+
+                    # Updated camera parameters after distortion correction
+                    fx, fy = new_camera_matrix[0, 0], new_camera_matrix[1, 1]
+                    cx, cy = new_camera_matrix[0, 2], new_camera_matrix[1, 2]
+
+                    X = (undistorted_pixel[0] - cx) * depth / fx
+                    Y = (undistorted_pixel[1] - cy) * depth / fy
+                    Z = depth
+
+                    return (X * self.depth_scale, Y * self.depth_scale, Z * self.depth_scale)
+
+            return None
+
+        except Exception as e:
+            self.get_logger().warn(f"Error calculating 3D point: {str(e)}")
+            return None
+```
+
+
+```python
+    def get_3d_point(self, pixel_x: int, pixel_y: int, depth_image: np.ndarray):
+        """Get 3D point from pixel coordinates with lens distortion correction."""
+        
+        try:
+            if 0 <= pixel_x < self.WIDTH and 0 <= pixel_y < self.HEIGHT:
+                depth = depth_image[int(round(pixel_y)), int(round(pixel_x))]
+
+                if depth > 0:
+                    w, h = self.WIDTH, self.HEIGHT
+                    
+                    camera_matrix = np.array([[889.20439927, 0., 645.90808215],
+                                              [0.,  891.14540673, 363.20254286],
+                                              [0., 0., 1.]])
+                    
+                    dist_coeffs = np.array([[0.19324328, -0.6149969,   0.00296531, -0.00147052,  0.58687461]])
+                    
+                    # Optimal new camera matrix
+                    new_camera_matrix, _ = cv2.getOptimalNewCameraMatrix(camera_matrix, dist_coeffs, (w, h), 1, (w, h))
+
+                    # Undistort pixel coordinates
+                    undistorted_pixel = cv2.undistortPoints(
+                        np.array([[pixel_x, pixel_y]], dtype=np.float32),
+                        camera_matrix,
+                        dist_coeffs,
+                        None,
+                        new_camera_matrix
+                    ).reshape(-1)
+
+                    # Updated camera parameters after distortion correction
+                    fx, fy = new_camera_matrix[0, 0], new_camera_matrix[1, 1]
+                    cx, cy = new_camera_matrix[0, 2], new_camera_matrix[1, 2]
+
+                    X = (undistorted_pixel[0] - cx) * depth / fx
+                    Y = (undistorted_pixel[1] - cy) * depth / fy
+                    Z = depth
+
+                    return (X * self.depth_scale, Y * self.depth_scale, Z * self.depth_scale)
+
+            return None
+
+        except Exception as e:
+            self.get_logger().warn(f"Error calculating 3D point: {str(e)}")
+            return None
 ```

@@ -39,7 +39,7 @@
 ---
 
 ## **💡2. 팀원 소개**
-| <img width="80" height="100" src="https://github.com/yks0901/2025_/blob/main/asset/%ED%86%A0%EC%9D%B5%20%EA%B1%B4%EC%88%98%20%EC%82%AC%EC%A7%84.jpg" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/c7f66b7c-ab84-41fa-8fba-b49dba28b677" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/c33252c7-3bf6-43cf-beaa-a9e2d9bd090b" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/0d5909f0-fc73-4ab9-be09-4d48e3e71083" > | 
+| <img width="80" height="100" src="https://github.com/yks0901/2025_/blob/main/asset/%ED%86%A0%EC%9D%B5%20%EA%B1%B4%EC%88%98%20%EC%82%AC%EC%A7%84.jpg" > | <img width="80" height="100" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/1759487705047.jpg" > | <img width="80" height="100" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/KakaoTalk_20251013_232203558.jpg" > | <img width="80" height="100" alt="image" src="https://github.com/user-attachments/assets/0d5909f0-fc73-4ab9-be09-4d48e3e71083" > | 
 |:---:|:---:|:---:|:---:|
 | **윤건수** | **박지훈** | **김소정** | **조원우** |
 | • 개발총괄 <br> • UI/UX 기획 | • 백엔드 <br> • 프론트엔드 | • API 개발 <br> • DB 서버 구축 |• 데이터 분석 <br> • 전처리 |

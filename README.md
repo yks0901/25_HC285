@@ -49,19 +49,19 @@
 ---
 ## **💡3. 시스템 구성도**
 
-- s/w 구성도(moveit 관련)
+- S/W 구성도(moveit 관련)
 <img width="500" height="600" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/moveit_flow" />
 
-- s/w 구성도(센서 흐름도)
+- S/W 구성도(센서 흐름도)
 <img width="500" height="500" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/%EC%84%BC%EC%84%9C%20%ED%9D%90%EB%A6%84%EB%8F%84.png" />
 
-- h/w 구성도(상부)
+- H/W 구성도(상부)
 <img width="500" height="500" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/top2.png" />
 
-- h/w 구성도(하부)
+- H/W 구성도(하부)
 <img width="600" height="500" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/bottom2.png" />
 
-- 흐름도
+- Flow Chart
 <img width="600" height="500" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/algorithm_flow" />
 
 ---

@@ -30,7 +30,7 @@ Camera → YOLO → 3D 좌표 → TF 변환 → MoveIt → Manipulation
 
 
 ---
-    ## 💡 작품 소개영상
+ ## 💡 작품 소개영상
 
 [![한이음 드림업 프로젝트 소개](https://github.com/yks0901/2025_/blob/main/asset/%EC%8D%B8%EB%84%A4%EC%9D%BC.png)](https://youtu.be/DfwWIk6EnHk)
 
@@ -81,12 +81,4 @@ def get_3d_point(self, pixel_x: int, pixel_y: int, depth_image: np.ndarray):
 
         return None
 
----
-
-    ## 💡 작품 소개영상
-
-[![한이음 드림업 프로젝트 소개](https://github.com/yks0901/2025_/blob/main/asset/%EC%8D%B8%EB%84%A4%EC%9D%BC.png)](https://youtu.be/DfwWIk6EnHk)
-
-    except Exception as e:
-        return None
 

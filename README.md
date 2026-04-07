@@ -38,15 +38,6 @@
 
 ---
 
-## **💡2. 팀원 소개**
-| <img width="80" height="100" src="https://github.com/yks0901/2025_/blob/main/asset/%ED%86%A0%EC%9D%B5%20%EA%B1%B4%EC%88%98%20%EC%82%AC%EC%A7%84.jpg" > | <img width="80" height="100" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/1759487705047.jpg" > | <img width="80" height="100" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/KakaoTalk_20251013_232203558.jpg" > | <img width="80" height="100" alt="image" src="https://github.com/yks0901/2025_/blob/main/asset/KakaoTalk_20251014_000518190.jpg" > | 
-|:---:|:---:|:---:|:---:|
-| **윤건수** | **박지훈** | **김소정** | **조원우** |
-| • 제어 로직 개발 <br> • 객체 인식 | • 하드웨어 설계 <br> • 역기구학 계산 | • RTAB-Map <br> • 서류 작성 |• 멘토링 <br> • 피드백 |
-
-
-
----
 ## **💡3. 시스템 구성도**
 
 - S/W 구성도(moveit 관련)

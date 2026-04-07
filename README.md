@@ -37,6 +37,16 @@ Camera → YOLO → 3D 좌표 → TF 변환 → MoveIt → Manipulation
 
 ---
 
+## 🏆 Results
+
+- 딥러닝 기반 딸기꽃 인식 및 자동 수분 동작 성공  
+- Depth 기반 3D 좌표 추정 → TF 변환 → MoveIt 제어까지 전체 파이프라인 구현  
+- 실제 환경에서 자율주행 및 매니퓰레이션 동작 검증  
+- 딸기꽃 약 1m 이내 거리에서 안정적인 인식 및 접근 수행  
+- 한이음 드림업 프로젝트 은상 수상  
+
+---
+
 ## ⚙️ Key Implementation
 
 ### 1. 3D 좌표 추정

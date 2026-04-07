@@ -72,6 +72,9 @@ def get_3d_point(self, pixel_x: int, pixel_y: int, depth_image: np.ndarray):
                 return (X * self.depth_scale, Y * self.depth_scale, Z * self.depth_scale)
 
         return None
+```
+
+---
 
     ## 💡 작품 소개영상
 

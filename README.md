@@ -33,8 +33,9 @@ Camera → YOLO → 3D 좌표 → TF 변환 → MoveIt → Manipulation
  ## 💡 작품 소개영상
 
 [![한이음 드림업 프로젝트 소개](https://github.com/yks0901/2025_/blob/main/asset/%EC%8D%B8%EB%84%A4%EC%9D%BC.png)](https://youtu.be/DfwWIk6EnHk)
-
-
+<a href="https://youtu.be/DfwWIk6EnHk">
+  <img src="https://raw.githubusercontent.com/yks0901/2025_/main/asset/썸네일.png" width="600">
+</a>
 ---
 
 

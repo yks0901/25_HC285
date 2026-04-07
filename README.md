@@ -7,7 +7,7 @@
 
 # 🧠 Strawberry Pollination Robot
 
-딥러닝 기반 객체 인식과 SLAM을 결합하여 딸기꽃을 인식하고  
+YOLO 객체 인식과 SLAM을 결합하여 딸기꽃을 인식하고  
 매니퓰레이터로 자동 수분을 수행하는 자율 로봇 시스템  
 
 ---

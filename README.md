@@ -1,4 +1,12 @@
 
+
+# 💡 작품 소개영상
+
+[![한이음 드림업 프로젝트 소개](https://raw.githubusercontent.com/yks0901/2025_/main/asset/%EC%8D%B8%EB%84%A4%EC%9D%BC.png)](https://youtu.be/DfwWIk6EnHk)
+---
+
+
+
 # 🧠 Strawberry Pollination Robot
 
 딥러닝 기반 객체 인식과 SLAM을 결합하여 딸기꽃을 인식하고  
@@ -30,12 +38,6 @@ Camera → YOLO → 3D 좌표 → TF 변환 → MoveIt → Manipulation
 
 
 ---
-
-## 💡 작품 소개영상
-
-[![한이음 드림업 프로젝트 소개](https://raw.githubusercontent.com/yks0901/2025_/main/asset/%EC%8D%B8%EB%84%A4%EC%9D%BC.png)](https://youtu.be/DfwWIk6EnHk)
----
-
 
 ## ⚙️ Key Implementation
 
